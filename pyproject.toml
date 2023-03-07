@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "variable-statistics-figures"
+version = "0.1.0"
+description = ""
+authors = ["Jakob Hauser <jakob.e.hauser@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "variable_statistics_figures"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.3"
+jupyterlab = "^3.6.1"
+seaborn = "^0.12.2"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.296"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
